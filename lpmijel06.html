@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jual minyak jelantah dengan mudah dan dapatkan penghasilan tambahan. Kami siap menerima minyak bekas Anda untuk didaur ulang.">
+    <meta name="keywords" content="jual minyak jelantah, pengumpulan minyak jelantah, daur ulang minyak jelantah, harga minyak jelantah, jual minyak bekas, beli minyak jelantah">
+    <meta name="author" content="Nama Perusahaan Anda">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Jual Minyak Jelantah - Pengumpulan Minyak Jelantah untuk Penghasilan Tambahan">
+    <meta property="og:description" content="Jual minyak jelantah dengan mudah dan aman. Kami menawarkan harga terbaik untuk minyak bekas Anda. Hubungi kami sekarang untuk transaksi mudah.">
+    <meta property="og:image" content="url_to_image.jpg">
+    <meta property="og:url" content="https://www.contohurl.com">
+    <meta property="og:type" content="website">
+    <title>Jual Minyak Jelantah - Pengumpulan Minyak Jelantah</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #004080; /* Dark blue - Changed color */
+            color: white;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        .logo img {
+            max-height: 60px; /* Adjusted logo size */
+        }
+
+        nav {
+            flex-grow: 1;
+            text-align: right;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            font-weight: bold;
+            padding: 5px 10px;
+            color: white;
+            transition: background 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #FFD700; /* Gold - Changed color */
+            color: #333;
+            border-radius: 5px;
+        }
+
+        .cta a {
+            background-color: #00FF00; /* Gold - Changed color */
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #333;
+            transition: background 0.3s ease;
+        }
+
+        .cta a:hover {
+            background-color: #FFAA00; /* Orange - Changed color */
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #FFFF00; /* Bright blue - Changed color */
+            color: Midnight Blue;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            padding: 10px 20px;
+            background-color: #00FF00; /* Gold - Changed color */
+            color: #333;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .hero a:hover {
+            background-color: #FFAA00; /* Orange - Changed color */
+        }
+
+        /* Section */
+        section {
+            padding: 60px 0;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #004080; /* Dark blue - Changed color */
+        }
+
+        /* Why Sell Section */
+        .why-sell {
+            background-color: #f9f9f9;
+        }
+
+        .why-sell p {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .why-sell ul {
+            display: flex;
+            justify-content: space-around;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .why-sell ul li {
+            flex-basis: 30%;
+            text-align: center;
+        }
+
+        /* How it Works */
+        .how-it-works .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .how-it-works .step {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact form label {
+            margin: 10px 0 5px;
+        }
+
+        .contact form input,
+        .contact form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact form button {
+            background-color: #004080; /* Dark blue - Changed color */
+            color: white;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .contact form button:hover {
+            background-color: #003366; /* Darker blue - Changed color */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer ul {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 10px;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin: 0;
+        }
+
+        footer ul li a {
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#how-it-works">Cara Kerja</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Jadikan Minyak Jelantah Anda menjadi bernilai Ekonomis</h1>
+            <p>Jual minyak jelantah Anda kepada kami tukarkan dengan emas murni atau dapatkan uang cash. Kami siap mengambil minyak bekas Anda untuk diolah menjadi Bio Solar.</p>
+            <a href="#sell-now">Jual Minyak Sekarang</a>
+        </div>
+    </section>
+	<!-- Form Section - START OF ADDED FORM -->
+    <section class="form-section">
+        <div class="container">
+            <h2>Saya mau jual minyak jelantah</h2>
+            <form id="client-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="oil-quantity">Jumlah Minyak Bekas (Liter):</label>
+                <input type="number" id="oil-quantity" name="oil_quantity" required>
+                <label for="location">Lokasi:</label>
+                <input type="text" id="location" name="location" required>
+			<h2>Harga berapa ?</h2>
+                <button type="button" id="send-whatsapp">Harga berapa?</button>
+            </form>
+        </div>
+    </section>
+    <!-- Form Section - END OF ADDED FORM -->
+    <!-- Mengapa Jual Minyak Jelantah -->
+    <section id="about" class="why-sell">
+        <div class="container">
+            <h2>Mengapa Menjual Minyak Jelantah?</h2>
+            <p>Minyak jelantah yang dibuang sembarangan dapat mencemari lingkungan. Dengan menjual minyak jelantah, Anda membantu menjaga lingkungan dan mendapatkan penghasilan tambahan.</p>
+            <ul>
+                <li>Harga minyak jelantah yang kompetitif</li>
+                <li>Mengurangi pencemaran lingkungan</li>
+                <li>Proses mudah dan cepat</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Cara Kerja -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>Bagaimana Cara Menjual Minyak Jelantah?</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Kumpulkan Minyak Jelantah</h3>
+                    <p>Kumpulkan minyak jelantah di rumah dalam wadah tertutup.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Hubungi Kami</h3>
+                    <p>Hubungi tim kami untuk pengambilan atau antarkan ke lokasi terdekat.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Terima Pembayaran</h3>
+                    <p>Dapatkan pembayaran langsung sesuai jumlah minyak yang Anda jual.</p>
+					</nav>
+					<div class="cta">
+					<a href="#sell-now">Jual Minyak Sekarang</a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#how-it-works">Cara Kerja</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <p>&copy; 2024 Nama Perusahaan Anda. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+			<!-- JavaScript untuk Kirim ke WhatsApp -->
+    <script>
+        // Function untuk mengirim pesan ke WhatsApp ketika tombol diklik
+        document.getElementById("send-whatsapp").addEventListener("click", function() {
+            // Ambil nilai dari input form
+            var name = document.getElementById("name").value;
+            var oilQuantity = document.getElementById("oil-quantity").value;
+            var location = document.getElementById("location").value;
+
+            // Format pesan WhatsApp
+            var whatsappMessage = "Assalamu alaikum, Saya mau menjual minyak jelantah.Harga berapa?" + 
+                                  "%0A%0ANama: " + name +
+                                  "%0AJumlah Minyak: " + oilQuantity + " liter" +
+                                  "%0ALokasi: " + location;
+								
+            // Buat URL WhatsApp
+            var whatsappURL = "https://wa.me/6281399352347?text=" + whatsappMessage;
+
+            // Redirect ke URL WhatsApp
+            window.open(whatsappURL, "_blank");
+        });
+    </script>
+</body>
+</html>
